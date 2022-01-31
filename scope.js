@@ -10,7 +10,7 @@ function fun() {
     return nombre + " " + apellido;
 }
 
-console.log(apellido);
+fun("jOSE")
 
 //No se puede traer datos de una funcion ya que tiene un scope local, pero puedo llamar datos del scope global al local
  
